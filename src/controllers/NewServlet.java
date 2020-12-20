@@ -39,6 +39,9 @@ public class NewServlet extends HttpServlet {
 
         // mの各フィールドにデータを代入
 
+        String title = "Task List";
+        m.setTitle(title);
+
         String content = "タスク管理アプリケーションを作成する";
         m.setContent(content);
 
