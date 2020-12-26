@@ -14,7 +14,7 @@
                             <td><c:out value="${task.title}" /></td>
                         </tr>
                         <tr>
-                            <th>タスク</th>
+                            <th>メッセージ</th>
                             <td><c:out value="${task.content}" /></td>
                         </tr>
                         <tr>
@@ -29,6 +29,7 @@
                 </table>
 
                 <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
+
                 <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">このタスクを編集する</a></p>
             </c:when>
             <c:otherwise>
